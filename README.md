@@ -155,6 +155,16 @@ Per terminare la demo, premere `Ctrl+C` in ciascuno dei quattro terminali.
 
 In condizioni normali viene creato un solo token, inizialmente posseduto da ATM1. Un nodo esegue la sezione critica solo mentre detiene il token e lo inoltra al successore al termine. Di conseguenza, in assenza di duplicazione del token, due ATM non possono eseguire contemporaneamente una transazione sul saldo.
 
+
 ## Video dimostrativo
 
-Prima della consegna, aggiungere al repository il video richiesto dalla traccia. Il video deve mostrare chiaramente i quattro terminali, la circolazione del token e le transazioni fino al saldo finale `400`.
+Il file `demo_token_ring.mp4` contiene la dimostrazione completa del sistema.
+
+Nel video sono visibili:
+- i quattro nodi ATM eseguiti in terminali separati;
+- la circolazione del token;
+- il prelievo di 200 effettuato da ATM2;
+- il deposito di 100 effettuato da ATM3;
+- il prelievo di 500 effettuato da ATM4;
+- il saldo finale pari a 400.
+
